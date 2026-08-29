@@ -30,7 +30,7 @@ The project simulates technical evaluation across the entire technology stack—
 | **02** | [ITGC Control Testing & Framework Mapping](02_ITGC_Audit_Matrix.md) | Active Directory, Database Hardening, SOC 2 / ISO 27001 | Completed |
 | **03** | [Enterprise Risk Register & Threat Analysis](03_Enterprise_Risk_Register.md) | Inherent vs. Residual Risk Scoring, Likelihood/Impact Matrix | Completed |
 | **04** | [C-Suite Audit Memo & Executive Remediation Plan](04_Executive_Audit_Memo.md) | Business Impact, Board/Audit Committee Reporting | Completed |
-
+| **05** | [Automated ITGC Database Access Audit Script](scripts/audit_postgres_access.py) | Python CLI, PostgreSQL `pg_roles` privilege verification, PoLP enforcement | Completed |
 ---
 
 ## Project Timeline
