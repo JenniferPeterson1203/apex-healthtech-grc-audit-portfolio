@@ -90,3 +90,18 @@
   * **Control Deficiency:** A control does not operate as designed, but the risk of significant harm is low (e.g., one isolated contractor account took 72 hours to deprovision).
   * **Significant Deficiency:** A deficiency, or combination of deficiencies, less severe than a material weakness yet important enough to merit attention by management.
   * **Material Weakness:** A severe flaw where there is a reasonable possibility that a material breach or financial misstatement will not be prevented or detected on a timely basis.
+
+  ---
+
+## 7. Third-Party Risk Management (TPRM)
+
+### Q15: What is a Business Associate Agreement (BAA), and why is it necessary under HIPAA?
+* **Answer:** A BAA is a legally binding contract between a HIPAA-covered entity (or healthcare software provider) and a third-party vendor that processes, transmits, or stores ePHI. It ensures the vendor implements administrative, physical, and technical safeguards compliant with the HIPAA Security Rule and enforces breach notification timelines.
+
+### Q16: How do you evaluate a third-party vendor's SOC 2 Type II report during an audit?
+* **Answer:** 
+  1. Verify the audit period is recent (typically within the last 12 months).
+  2. Confirm the auditor's opinion is "unqualified" (clean).
+  3. Inspect the scope of Trust Services Criteria evaluated (e.g., Security, Availability, Confidentiality).
+  4. Review Section IV (Test of Controls) for any logged exceptions or testing failures.
+  5. Review User Entity Controls (CUECs) to ensure your organization is fulfilling the internal prerequisites required by the vendor's platform.
