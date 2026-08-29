@@ -77,3 +77,16 @@
 
 ### Q12: How do auditors test database user privileges in PostgreSQL (AC-03)?
 * **Answer:** Auditors query system catalogs like `pg_roles` or `information_schema.table_privileges` to identify accounts with `SUPERUSER` or unrestricted `GRANT` rights, verifying that active privileges align with documented least-privilege business approvals.
+
+---
+
+## 6. Executive Communication & Business Alignment
+
+### Q13: How do you explain a technical vulnerability (like an open database port) to a CFO or Board member?
+* **Answer:** Frame the technical risk in terms of business impact, regulatory cost, and operational downtime. Instead of focusing only on "PostgreSQL port 5432 is open," explain: *"An exposed database creates an unmonitored entry point that could lead to an ePHI data breach, resulting in potential HIPAA regulatory fines, reputational loss, and client contract cancellations. We mitigated this by isolating the database in a private network zone, reducing our external exposure to near zero."*
+
+### Q14: What is the difference between a SOC 2 Deficiency, Significant Deficiency, and Material Weakness?
+* **Answer:**
+  * **Control Deficiency:** A control does not operate as designed, but the risk of significant harm is low (e.g., one isolated contractor account took 72 hours to deprovision).
+  * **Significant Deficiency:** A deficiency, or combination of deficiencies, less severe than a material weakness yet important enough to merit attention by management.
+  * **Material Weakness:** A severe flaw where there is a reasonable possibility that a material breach or financial misstatement will not be prevented or detected on a timely basis.
