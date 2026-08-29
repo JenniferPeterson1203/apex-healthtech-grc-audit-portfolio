@@ -27,9 +27,9 @@ The project simulates technical evaluation across the entire technology stack—
 | Phase | Deliverable Name | Focus Area & Frameworks Covered | Status |
 | :--- | :--- | :--- | :--- |
 | **01** | [Network Architecture & Protocol Baseline](01_Network_Architecture_and_Protocols.md) | OSI Layer Mapping, Port Hardening, In-Transit Encryption | Completed |
-| **02** | [ITGC Control Testing & Framework Mapping](02_ITGC_Audit_Matrix.md) | Active Directory, Database Hardening, SOC 2 / ISO 27001 | In Progress |
-| **03** | [Enterprise Risk Register & Threat Analysis](03_Enterprise_Risk_Register.md) | Inherent vs. Residual Risk Scoring, Likelihood/Impact Matrix | Scheduled |
-| **04** | [C-Suite Audit Memo & Executive Remediation Plan](04_Executive_Audit_Memo.md) | Business Impact, Board/Audit Committee Reporting | Scheduled |
+| **02** | [ITGC Control Testing & Framework Mapping](02_ITGC_Audit_Matrix.md) | Active Directory, Database Hardening, SOC 2 / ISO 27001 | Completed |
+| **03** | [Enterprise Risk Register & Threat Analysis](03_Enterprise_Risk_Register.md) | Inherent vs. Residual Risk Scoring, Likelihood/Impact Matrix | Completed |
+| **04** | [C-Suite Audit Memo & Executive Remediation Plan](04_Executive_Audit_Memo.md) | Business Impact, Board/Audit Committee Reporting | Completed |
 
 ---
 
