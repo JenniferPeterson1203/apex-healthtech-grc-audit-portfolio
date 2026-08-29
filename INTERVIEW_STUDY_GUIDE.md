@@ -62,3 +62,18 @@
 | **Inherent Risk** | The level of raw risk before any security controls or mitigations are applied. |
 | **Residual Risk** | The remaining risk exposure after existing security controls have been implemented. |
 | **Separation of Duties (SoD)** | Ensuring no single individual has end-to-end control over a critical process (e.g., writing code vs. deploying to production). |
+
+---
+
+## 5. ITGC & Audit Testing Mastery
+
+### Q10: Why is Separation of Duties (SoD) between Developers and Production critical (CM-02)?
+* **Answer:** If software developers hold direct administrative or write access to production database environments, malicious or accidental unauthorized code/data modifications can occur without oversight. Requiring changes to pass through automated CI/CD pipelines with peer approvals ensures auditability and integrity.
+
+### Q11: What is the difference between a Design Deficiency and an Operating Deficiency?
+* **Answer:**
+  * **Design Deficiency:** The control policy or rule is missing or poorly planned (e.g., the company has no policy requiring MFA for contractors).
+  * **Operating Deficiency:** The control is designed properly, but failed during execution (e.g., the policy requires deprovisioning within 24 hours, but one contractor account stayed active for 72 hours due to a manual ticketing lag).
+
+### Q12: How do auditors test database user privileges in PostgreSQL (AC-03)?
+* **Answer:** Auditors query system catalogs like `pg_roles` or `information_schema.table_privileges` to identify accounts with `SUPERUSER` or unrestricted `GRANT` rights, verifying that active privileges align with documented least-privilege business approvals.
